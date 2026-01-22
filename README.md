@@ -67,4 +67,16 @@ Esses algoritmos auxiliam os entregadores na execução de suas principais ativi
 **4. Diagrama do Grafo.**
 Seguidamente apresentamos os resultados da modelagem de dados, destacando o agrupamento Kmeans e estruturas de grafos para a obtenção do melhor caminho.
 
-![Visualização Dos graficos](imagens/Graficos_Kmean_Caminho)
+![Visualização Dos graficos](Graficos_Kmean_Caminho.png)
+
+**5. Análise dos resultados, eficiência da solução, limitações encontradas e sugestões de melhoria.**
+
+Mediante uma análise detalhada do problema proposto, foi possível desenvolver um algoritmo capaz de fornecer resultados satisfatórios na otimização das rotas de entrega da empresa Sabor Express. Mesmo operando exclusivamente com dados simulados, a solução apresentou resultados coerentes com a realidade operacional da organização, demonstrando como o uso de técnicas de Inteligência Artificial pode contribuir de forma significativa para a melhoria dos processos logísticos de uma empresa.
+
+Por meio da aplicação do algoritmo de agrupamento K-Means, tornou-se possível realizar uma divisão equilibrada da cidade em diferentes zonas de entrega, garantindo que os clientes fossem distribuídos de forma mais justa entre os motoristas disponíveis. Essa estratégia contribuiu para evitar a sobrecarga de trabalho, além de reduzir deslocamentos desnecessários entre regiões distintas. Complementando essa abordagem, foram utilizadas heurísticas gulosas baseadas na estratégia do vizinho mais próximo, organizadas dentro de uma estrutura de modelagem por grafos, permitindo a definição de rotas de entrega mais eficientes dentro de cada zona.
+
+Em termos práticos, a abordagem adotada apresenta baixo custo computacional e rapidez no processamento das informações, tornando o sistema adequado para a tomada de decisões em tempo reduzido, especialmente em cenários de pequena e média escala. Dessa forma, a solução contribui diretamente para a economia de combustível, a redução do tempo de deslocamento e o aumento da eficiência operacional, fatores que representam diferenciais competitivos no setor de delivery.
+
+Entretanto, o desenvolvimento do projeto também evidenciou algumas limitações relevantes. Por utilizar uma base de dados fictícia, o modelo não considera variáveis essenciais do contexto real, como o fluxo de trânsito em horários de pico, o tempo de solicitação dos pedidos e possíveis restrições ou bloqueios no tráfego urbano. Além disso, a heurística do vizinho mais próximo, apesar de sua eficiência e simplicidade, baseia-se apenas na distância imediata entre os pontos, o que pode impedir a obtenção da rota globalmente mais eficiente em cenários urbanos mais densos. Soma-se a isso a ausência de um mecanismo de priorização dos pedidos, que desconsidera a urgência individual de cada entrega.
+
+Para superar essas limitações, o modelo pode ser aprimorado em etapas futuras por meio da integração com dados reais de tráfego, da adoção de algoritmos de busca mais avançados e da inclusão de critérios adicionais de decisão, como tempo de entrega e nível de prioridade dos pedidos, tornando a solução mais robusta e próxima de uma aplicação real em ambiente corporativo.
