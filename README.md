@@ -1,0 +1,2 @@
+# Rota-Inteligente-Otimiza-o-de-Entregas-com-Algoritmos-de-IA-Pratica
+Este repositório apresenta uma solução baseada em Inteligência Artificial para otimização de rotas de delivery, utilizando dados simulados. O projeto aplica K-Means para divisão de zonas de entrega e modelagem por grafos com heurística gulosa para definir rotas eficientes, auxiliando a logística da empresa fictícia Sabor Express.
