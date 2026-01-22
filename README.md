@@ -67,4 +67,4 @@ Esses algoritmos auxiliam os entregadores na execução de suas principais ativi
 **4. Diagrama do Grafo.**
 Seguidamente apresentamos os resultados da modelagem de dados, destacando o agrupamento Kmeans e estruturas de grafos para a obtenção do melhor caminho.
 
-
+![Visualização Dos graficos](imagens/Graficos_Kmean_Caminho)
