@@ -64,7 +64,7 @@ Assim entre os principais algoritmos utilizados podemos mencionar:
 
 Esses algoritmos auxiliam os entregadores na execução de suas principais atividades, permitindo uma melhor organização das entregas e a definição de percursos mais eficientes, considerando principalmente a distância entre os pontos. Como resultado, a solução contribui para a redução do tempo de deslocamento, do consumo de recursos e para o aumento da eficiência operacional do serviço de entregas.
 
-Seguidamente é apresentado o algoritmo criado para este cenario
+Seguidamente é apresentado o algoritmo criado para este cenario:
 
  *[Ver Código do Algoritmo](Algoritmo_Rotas_Optimizadas_Sabor_Express.ipynb)*
 
